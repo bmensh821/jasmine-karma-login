@@ -11,6 +11,7 @@ module.exports = function (config) {
     // frameworks to use
     // available frameworks: https://www.npmjs.com/search?q=keywords:karma-adapter
     frameworks: ['jasmine'],
+    autoWatch: false,
 
 
     // list of files / patterns to load in the browser
@@ -61,7 +62,7 @@ module.exports = function (config) {
 
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits
-    singleRun: false,
+    singleRun: true,
 
     // Concurrency level
     // how many browser instances should be started simultaneously
