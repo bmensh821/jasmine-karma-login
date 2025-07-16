@@ -5,10 +5,11 @@ and [Karma](https://karma-runner.github.io/) for a simple `LoginService` in Java
 
 ## 📂 Project Structure
 
+```text
 qa-jasmine-karma-login/
-├── src/ # Business logic (LoginService)
-├── spec/ # Jasmine tests
-├── karma.conf.js # Karma configuration
+├── src/              # Business logic (LoginService)
+├── spec/             # Jasmine tests
+├── karma.conf.js     # Karma configuration
 ├── package.json
 ├── .gitignore
 └── README.md
